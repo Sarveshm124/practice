@@ -7,7 +7,7 @@ Image{
   display: flex;
   gap: 20px;
 }
-/* .movie{
+.movie{
   padding:50px;
   box-shadow:5px 5px 5px black;
-} */
+}

@@ -1,5 +1,6 @@
 import Movie from "./Movie";
-import ComedyData from "./comedydata";
+//import ComedyData from "./comedydata";
+import ComedyData from "./data"
 function Joke ()
 {
     return(

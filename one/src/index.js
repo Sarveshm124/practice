@@ -5,15 +5,11 @@ import App from './App.js';
 
 
 
-const root = ReactDOM.createRoot(document.getElementById('boot')).
+const root = ReactDOM.createRoot(document.getElementById('root')).
 render 
 (
  <div> 
   <App />
  </div>
-    
-  
- 
-  
 );
 
