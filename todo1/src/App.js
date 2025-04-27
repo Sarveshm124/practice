@@ -1,5 +1,5 @@
 import Todos from "./Todos"
-function  App ()
+export default function App ()
 {
   
   return (
@@ -8,6 +8,3 @@ function  App ()
 		</div>
 	)
 }
-export default  App ()
-
-

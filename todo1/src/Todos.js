@@ -6,7 +6,7 @@ function Todos ()
 {
     const [values, setValues] = useState([])
     const [value, setValue] = useState("")
-    const [dummytext,setDummyText]=useState('dummmy')
+   
 		const add = () => {
 			setValues([...values, value])
 			setValue("")
@@ -15,10 +15,8 @@ function Todos ()
 			values.splice(id, 1)
 			setValues([...values])
     }
-    const update = (text) =>
-    {
-       setDummyText(text)
-   }
+   
+   
   return (
 		<div>
 			<div>
@@ -29,10 +27,10 @@ function Todos ()
 				/>
 				<button onClick={add}>click</button>
           </div>
-          {dummytext}
+         
 			<ul>
-				{values.map((t, i) => (
-                    <Todo task={t} index={i} remove={remove} update={update} />
+				{values.map((t ) => (
+                    <Todo task={t}  remove={remove}  />
 				))}
 			</ul>
 		</div>
